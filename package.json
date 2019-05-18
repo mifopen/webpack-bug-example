@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build-vendor": "webpack --config vendor.webpack.config.js",
+    "build-app": "webpack"
+  },
   "dependencies": {
     "@sentry/browser": "5.2.1",
     "webpack": "4.31.0",
